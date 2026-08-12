@@ -4,5 +4,5 @@ min = "0.110.0"
 [[module.imports]]
 path = "github.com/krisk/Fuse"
 [[module.imports.mounts]]
-source = "dist"
-target = "assets/mods/fuse"
+source = "dist/fuse.mjs"
+target = "assets/mods/fuse/fuse.js"
